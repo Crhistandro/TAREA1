@@ -1,0 +1,83 @@
+body {
+    font-family: 'Press Start 2P', cursive; /* Fuente retro */
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #1E1E1E; /* Fondo oscuro */
+    color: #FFFFFF; /* Texto en blanco */
+    background-image: url('/IMAGENES/1.jpg')
+   
+    
+
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #8B0000; /* Rojo oscuro (más suave que el rojo brillante) */
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #FFD700; /* Dorado, inspirado en las monedas */
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #32CD32; /* Verde, inspirado en la hierba */
+    border-bottom: 2px solid #FF0000; /* Línea roja */
+    padding-bottom: 10px;
+    font-size: 2rem;
+}
+
+a {
+    color: #FFD700; /* Dorado, inspirado en las monedas */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFA500; /* Naranja al pasar el mouse */
+    text-decoration: underline;
+}
+
+.indice {
+    background-color: #333333; /* Gris medio */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    color: #FFFFFF; /* Texto en blanco */
+}
+
+.indice h2 {
+    color: #FFD700; /* Dorado para destacar */
+    border-bottom: none;
+}
+
+.tema {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #444444; /* Gris un poco más claro */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #FFFFFF; /* Texto en blanco */
+}
+.tema img{
+    width: 50%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: 50%; /* La imagen ocupa el 100% del alto del contenedor */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsionar */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333333; /* Gris medio */
+    border-radius: 8px;
+    color: #FFFFFF; /* Texto en blanco */
+}
+
+
+/* tarea */
